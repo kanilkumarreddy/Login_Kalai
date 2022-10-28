@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt
 
-
+@csrf_exempt
 def user(request):
     user=request.POST.get("username")
     pwd=request.POST.get("password")
