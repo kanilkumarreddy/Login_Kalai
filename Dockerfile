@@ -26,6 +26,6 @@ COPY . /project/
 EXPOSE 8000
 
 # Triggering the access point of the application
-CMD ["python","manage.py","runserver","0.0.0.0:8000"]
+CMD ["python","manage.py","runserver"]
 # CMD python manage.py runserver 0.0.0.0:8000
 # 8001:8000  binding container port(8000) to host port(8001)
