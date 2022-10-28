@@ -1,0 +1,19 @@
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="{% static 'image/k.png'%}" alt="logo">
+    <!-- <img src= url("{%static 'image/login.jpg'%}"> -->
+    <h1 style="background-color: aquamarine;"><center> Welcome to Kanini Academy</center></h1>
+    <h1>Hi {{user.request}}</h1>
+    <center> <img src="{% static 'image/kanini.jpg'%}" alt="alternatetext"> </center>
+   <a href=""><button> <center>LOG OUT</center></button></a> 
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <title>Document</title>
+   <style>
+    body{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+</style>
+</head>
+
+<body>
+    <header class='b'><Center><h1>KANINI ACADEMY</h1></Center></header>
+    <center>
+        <form class='form' action="" method="post">
+            <br>
+            <p>LOGIN FORM</p>
+            {% csrf_token %}
+            User Name:<input type="text" name="username" placeholder="Enter your name" required><br><br>
+            Password :<input type="password" name="password" placeholder="Enter your password" required ><br>
+            <br>
+            <button class='a'> LOG IN</button><br>
+            
+            {{error}}
+    
+    
+        </form></center>
+        
+</body>
+</html>

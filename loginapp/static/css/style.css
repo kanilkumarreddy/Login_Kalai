@@ -1,0 +1,43 @@
+*{
+    background: url("{%static 'image/i.jpg'%}");
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+}
+
+.form{
+    border-style:outset;
+    /* background-color: rgba(58, 234, 211, 0.356); */
+    background-image: linear-gradient(to right, rgba(0, 255, 234, 0.612) , rgba(0, 255, 174, 0.744),rgba(0, 255, 140, 0.629));
+    font-style:normal;  
+     font-weight: bolder;  
+    color: black;
+    box-sizing: border-box;
+    border-radius: 12px;
+    position: relative;left:300px;right: 500px;top: 50px;
+    margin: 50px;
+    margin-bottom: 5px;
+    /* margin-left: 50px; */
+    margin-right: 650px;
+
+    height: 250px;
+    width: 300px;
+    
+}
+
+.a{
+    font-weight: bold;
+    color: black;
+    background: -webkit-linear-gradient(rgba(28, 201, 184, 0.63), rgba(200, 255, 0, 0.427) );
+   
+
+}
+
+.b{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right, rgba(0, 255, 234, 0.612) , rgba(0, 255, 174, 0.744),rgba(0, 255, 140, 0.629));
+}
+
+input{
+    al: left;
+}
